@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include _head.html %}
+  <body>
+    {% include _navigation_main.html %}
+    <div class="ui grid top-banner">
+      <div class="ui grid page">
+        <div class="ten wide column">
+          {% include _breadcrumbs.html %}
+        </div>
+      </div>
+    </div>
+    <div class="ui page grid main">
+      <div class="four wide column sidebar computer only">
+        {% include _doc.html %}
+      </div>
+      <div class="column twelve wide padding-reset">
+        {{ content }}
+      </div>
+    </div>
+    {% include _footer.html %}
+     <script>$('.ui.accordion').accordion();</script>
+
+  </body>
+</html>

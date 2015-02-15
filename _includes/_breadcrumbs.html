@@ -1,0 +1,14 @@
+<div class="ui breadcrumb">
+  <a href="#" class="section"><i class="icon-home"></i>Home</a>
+  {% assign crumbs = page.url | split: '/' %}
+  {% assign crumbstotal = crumbs | size %}
+  {% for crumb in crumbs offset:1 %}
+    {% unless crumb == 'index.html' %}
+    <a href="{{site.url}}{{ crumb }}" class="section item">
+      <span class="divider">&#187;</span> {{ crumb | remove: '.html' }}
+    </a>
+    {% endunless %}
+  {% endfor %}
+</div>
+
+<!-- <script>jQuery(".breadcrumb div").last().addClass('active');</script> -->

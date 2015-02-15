@@ -1,0 +1,95 @@
+
+body {
+  background: #fff;
+  font: 16px/1.8 sans-serif, 'Helvetica Neue', Arial, Helvetica !important;
+  color: #444;
+}
+
+a {
+  color: #009fda;
+  text-decoration: none;
+}
+.ui.menu {
+  border-radius: 0;
+}
+.ui.button {
+  text-transform: none;
+}
+.ui.header .sub.header {
+  line-height: inherit;
+}
+.ui.icon.header {
+  display: inline-block;
+  text-align: center;
+}
+.ui.header:first-child {
+  margin-top: 0;
+}
+.ui.header {
+  font-weight: normal;
+}
+body >.ui.grid+.grid.ui.top-banner {
+  background: #efefef;
+  padding: 10px 0 ;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+
+.ui.icon.header .icon {
+color: cornflowerblue;
+}
+
+footer .ui.horizontal.bulleted.link.list .item {
+font-size: 14px;
+}
+
+.sidebar .accordion .title {
+  font-size: 14px;
+  text-transform: none;
+  letter-spacing: inherit;
+  line-height: 1.2em;
+}
+.sidebar .accordion .ui.link.list a.item {
+font-size: 14px;
+}
+
+.ui.huge.message.grid.aligned.centered {
+background: #fff;
+box-shadow: none;
+}
+
+.top-banner {
+  background: #efefef;
+}
+.ui.menu.top-nav {
+  margin-top: 0;
+}
+/*rtl:ignore
+pre.console {
+  background-color: transparent;
+  line-height: 1.6;
+  font-family:  'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+  height: 300px;
+  overflow: auto;
+  direction:ltr;
+}
+code {
+  background-color: rgba(0, 0, 0, 0.02);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  font-family: "Monaco","Menlo","Ubuntu Mono","Consolas","source-code-pro",monospace;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 2px 0px 0px;
+  padding: 2px 4px;
+  vertical-align: baseline;
+}
+pre code {
+  border: none;
+  padding: 0px;
+  font-size: 1em;
+}
+/* Code block
+.ui.message code {
+  background-color: rgba(255, 255, 255, 0.6);
+}*/

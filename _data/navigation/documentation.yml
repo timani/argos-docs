@@ -1,0 +1,14 @@
+  - name: Overview
+    page: installation
+
+  - name: System Requirements
+    page: docs/installation/system-requirements
+
+  - name: Download
+    page: docs/installation/download
+
+  - name: Docker Compose
+    page: docs/installation/docker-compose
+
+  - name: Manual Installation
+    page: docs/installation/manual

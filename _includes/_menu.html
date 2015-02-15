@@ -1,0 +1,17 @@
+
+  <nav class="top">
+    <div class="ui inverted menu navbar page grid">
+      <a href="{{site.url}}" class="brand item" style="padding: px 10px 2px 15px;">
+        Box
+      <!--  <img alt="Pantheon" src="https://pantheon.io/sites/all/themes/zeus/images/logo-bw.png" width="130" height="43"> -->
+      </a>
+      {% for nav in site.data.navigation.top %}
+      <a href="{{site.url}}{{ nav.page }}" class="brand item">
+        {{ nav.name }}
+      </a>
+      {% endfor %}
+      <div class="right menu">
+          <a href="" class="item"><i class="github icon"></i> Github</a>
+      </div>
+    </div>
+  </nav>

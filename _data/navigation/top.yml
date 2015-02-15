@@ -1,0 +1,8 @@
+- name: Get Started
+  page: getting-started
+
+- name: Documentation
+  page: docs
+
+- name: Get Involved
+  page: get-involved
